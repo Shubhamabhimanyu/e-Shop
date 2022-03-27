@@ -3,7 +3,7 @@ import Products from './components/Products'
 import Product from './components/Product'
 import Cart from "./components/Cart";
 import{
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route
 } from 'react-router-dom';
@@ -14,7 +14,7 @@ import Home from "./components/Home";
 
 
 function App() {
-  return (
+  return ( 
 
     <>
     <Router>
